@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class #27</title>
+    <!-- Direct use the CDN link below:-->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- Or, Download the CSS file from the CDN link and Use this file: -->
+    <script src="tailwind.css"></script>
+    <!-- Google Font Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <!-- Google Font End -->
+    <!-- Font Awesome Start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome End -->
+</head>
+
+<body>
+    <!-- Header Part Start -->
+    <div class="bg-headerBg py-[30px] fixed top-0 left-0 w-full z-[100]">
+        <div class="max-w-myContainer m-auto">
+            <div class="flex items-center">
+                <div class="w-[20%]">
+                    <picture>
+                        <img src="images/Logo.png" alt="Logo.png">
+                    </picture>
+                </div>
+                <div class="w-[60%]">
+                    <ul class="flex gap-x-9">
+                        <li><a href="#" class="text-white font-openSans text-lg font-semibold hover:text-hoverColor">
+                                Home <i class="fa-solid fa-angle-down ml-2"></i> </a></li>
+                        <li><a href="#" class="text-white font-openSans text-lg font-semibold hover:text-hoverColor">
+                                About <i class="fa-solid fa-angle-down ml-2"></i> </a></li>
+                        <li><a href="#" class="text-white font-openSans text-lg font-semibold hover:text-hoverColor">
+                                Service <i class="fa-solid fa-angle-down ml-2"></i> </a></li>
+                        <li><a href="#" class="text-white font-openSans text-lg font-semibold hover:text-hoverColor">
+                                Portfolio <i class="fa-solid fa-angle-down ml-2"></i> </a></li>
+                        <li><a href="#" class="text-white font-openSans text-lg font-semibold hover:text-hoverColor">
+                                Price <i class="fa-solid fa-angle-down ml-2"></i> </a></li>
+                        <li><a href="#" class="text-white font-openSans text-lg font-semibold hover:text-hoverColor">
+                                Blog <i class="fa-solid fa-angle-down ml-2"></i> </a></li>
+                    </ul>
+                </div>
+
+                <div class="w-[20%] text-center">
+                    <a href="#"
+                        class="px-[20px] py-[15px] bg-hoverColor text-white rounded-full font-openSans text-lg font-semibold capitalize">
+                        Contact Us </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Part End  -->
+
+    <!-- Banner Part Start -->
+    <div class="bg-bannerBg bg-no-repeat bg-cover bg-center">
+        <div class="bg-bannerOverlay pt-[265px] pb-[255px]">
+            <div class="max-w-myContainer m-auto">
+                <div class="text-center text-white">
+                    <h1 class="font-openSans font-bold text-[84px] capitalize">yOU’RE UNIQUE.YOUR WEBSITE SHOULD BE TOO
+                    </h1>
+                    <p class="font-paprika font-normal text-2xl leading-10 px-[220px]">A beautiful website passionately
+                        crafted for your small business. Our Digital Agency development
+                        has changed the way brands and businesses use technology for growing business. </p>
+                    <div class="mt-10">
+                        <a href="#"
+                            class="px-[20px] py-[15px] mr-10 bg-hoverColor text-white rounded-full font-openSans text-lg font-semibold capitalize hover:bg-transparent border-2 border-hoverColor">
+                            get free quoto </a>
+                        <a href="#"
+                            class="px-[20px] py-[15px] bg-hoverColor text-white rounded-full font-openSans text-lg font-semibold capitalize hover:bg-transparent border-2 border-hoverColor">
+                            Learn More </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Part End  -->
+
+    <!-- Card Part Start -->
+    <div class="bg-cardBg bg-no-repeat bg-cover bg-center pb-[130px]">
+        <div class="max-w-myContainer m-auto">
+            <div class="flex justify-between">
+                <div class="w-[270px]">
+                    <img src="images/card1.png" alt="card1.png" class="w-full">
+                </div>
+                <div class="w-[200px]">
+                    <img src="images/card2.png" alt="card2.png" class="w-full">
+                </div>
+                <div class="w-[340px]">
+                    <img src="images/card3.png" alt="card3.png" class="w-full">
+                </div>
+                <div class="w-[270px]">
+                    <img src="images/card4.png" alt="card4.png" class="w-full">
+                </div>
+            </div>
+
+            <div class="flex justify-between mt-20">
+                <div class="w-[23%] text-center border-r-4">
+                    <h3 class="font-openSans text-[64px] font-extrabold text-hoverColor">53k</h3>
+                    <p class="font-openSans text-[30px] font-bold text-black capitalize">Happy client</p>
+                </div>
+                <div class="w-[23%] text-center border-r-4">
+                    <h3 class="font-openSans text-[64px] font-extrabold text-hoverColor">10k</h3>
+                    <p class="font-openSans text-[30px] font-bold text-black capitalize">Projects Done</p>
+                </div>
+                <div class="w-[23%] text-center border-r-4">
+                    <h3 class="font-openSans text-[64px] font-extrabold text-hoverColor">120</h3>
+                    <p class="font-openSans text-[30px] font-bold text-black capitalize">Gets Award</p>
+                </div>
+                <div class="w-[23%] text-center">
+                    <h3 class="font-openSans text-[64px] font-extrabold text-hoverColor">16</h3>
+                    <p class="font-openSans text-[30px] font-bold text-black capitalize">operated yEARS</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Card Part End  -->
+
+    <!-- Why Part Start -->
+    <div class="bg-whyBg bg-no-repeat bg-cover bg-center pt-[100px] pb-[90px]">
+        <div class="max-w-myContainer m-auto">
+            <div class="flex justify-between">
+                <div class="w-1/2">
+                    <div
+                        class="px-[30px] py-[10px] flex hover:py-[40px] hover:bg-white hover:rounded-lg hover:shadow-md">
+                        <picture>
+                            <img src="images/circleIcon.png" alt="circleIcon.png">
+                        </picture>
+                        <p class="w-[319px] ml-[20px] font-paprika text-lg font-normal text-[#726E9E] leading-8">
+                            We solve real-world problems through people and the web.
+                        </p>
+                    </div>
+                    <div
+                        class="px-[30px] py-[10px] flex hover:py-[40px] hover:bg-white hover:rounded-lg hover:shadow-md">
+                        <picture>
+                            <img src="images/circleIcon.png" alt="circleIcon.png">
+                        </picture>
+                        <p class="w-[366px] ml-[20px] font-paprika text-lg font-normal text-[#726E9E] leading-8">
+                            We make processes and technology work efficiently together.
+                        </p>
+                    </div>
+                    <div
+                        class="px-[30px] py-[10px] flex hover:py-[40px] hover:bg-white hover:rounded-lg hover:shadow-md">
+                        <picture>
+                            <img src="images/circleIcon.png" alt="circleIcon.png">
+                        </picture>
+                        <p class="w-[366px] ml-[20px] font-paprika text-lg font-normal text-[#726E9E] leading-8">
+                            We advance improve existing technology through research and development.
+                        </p>
+                    </div>
+                    <div
+                        class="px-[30px] py-[10px] flex hover:py-[40px] hover:bg-white hover:rounded-lg hover:shadow-md">
+                        <picture>
+                            <img src="images/circleIcon.png" alt="circleIcon.png">
+                        </picture>
+                        <p class="w-[331px] ml-[20px] font-paprika text-lg font-normal text-[#726E9E] leading-8">
+                            We develop long-lasting and scalable solutions, relationships partnerships.
+                        </p>
+                    </div>
+                </div>
+                <div class="w-[40%]">
+                    <h3 class="mb-[15px] font-openSans text-5xl font-bold text-[#141135] capitalize">Why Choose Us</h3>
+                    <p class="mb-[40px] w-[393px] font-paprika text-lg font-normal text-[#726E9E] leading-8">We are now
+                        a team of strategists, engineers, designers, and marketers who both use and develop
+                        technology for a variety of client needs.
+                    </p>
+                    <a href="#"
+                        class="px-[20px] py-[15px] bg-hoverColor text-white rounded-full font-openSans text-lg font-semibold capitalize">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Why Part End  -->
+
+    <!-- What We Do Part Start -->
+    <div class="bg-[#F6F5FF] py-[100px]">
+        <div class="max-w-myContainer m-auto">
+            <div class="flex justify-between">
+                <div class="w-[32%]">
+                    <h3 class="mb-[35px] font-openSans text-5xl font-bold text-[#141135] capitalize"> What We Do </h3>
+                    <p class="mb-[60px] pr-[30px] font-openSans text-[18px] font-normal text-[#6C7D93] leading-8">
+                        We are now a team of strategists, engineers, designers, and marketers who both use and develop
+                        technology
+                    </p>
+                    <a href="#"
+                        class="px-[20px] py-[15px] bg-hoverColor text-white rounded-full font-openSans text-lg font-semibold capitalize">
+                        Contact Us
+                    </a>
+                </div>
+                <div
+                    class="group w-[32%] py-[50px] text-center bg-white drop-shadow-md rounded-[20px] hover:bg-[#6B62C5]">
+                    <picture>
+                        <img class="m-auto" src="images/web-design.png" alt="web-design.png">
+                    </picture>
+                    <h3
+                        class="group-hover:text-white mt-[30px] mb-[15px] font-openSans text-3xl font-bold text-[#141135] capitalize">
+                        web Design & Dev </h3>
+                    <p
+                        class="group-hover:text-white mb-[5px] pl-[35px] pr-[35px] font-paprika text-[18px] font-normal text-[#726E9E] leading-[30px]">
+                        Social Media has changed the way we interact & do business while creating
+                    </p>
+                    <div class="m-auto w-[184px] h-[40px] relative">
+                        <a
+                            class="group-hover:text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg font-bold">
+                            Read more</a>
+                        <div
+                            class="group-hover:bg-circleHoverColor w-[27px] h-[40px] bg-circleColor rounded-tl-[0] rounded-tr-[90px] rounded-br-[90px] rounded-bl-[0] absolute top-1/2 left-3/4 -translate-x-1/2 -translate-y-1/2">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="group w-[32%] py-[50px] text-center bg-white drop-shadow-md rounded-[20px] hover:bg-[#6B62C5]">
+                    <picture>
+                        <img class="m-auto" src="images/software-dev.png" alt="software-dev.png">
+                    </picture>
+                    <h3
+                        class="group-hover:text-white mt-[30px] mb-[15px] font-openSans text-3xl font-bold text-[#141135] capitalize">
+                        Software Dev
+                    </h3>
+                    <p
+                        class="group-hover:text-white mb-[5px] pl-[35px] pr-[30px] font-paprika text-[18px] font-normal text-[#726E9E] leading-[30px]">
+                        Content Marketing is the other fold of online advertisement. If you are looking to build
+                    </p>
+                    <div class="m-auto w-[184px] h-[40px] relative">
+                        <a
+                            class="group-hover:text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg font-bold">
+                            Read more</a>
+                        <div
+                            class="group-hover:bg-circleHoverColor w-[27px] h-[40px] bg-circleColor rounded-tl-[0] rounded-tr-[90px] rounded-br-[90px] rounded-bl-[0] absolute top-1/2 left-3/4 -translate-x-1/2 -translate-y-1/2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between mt-[30px]">
+                <div
+                    class="group w-[32%] py-[50px] text-center bg-white drop-shadow-md rounded-[20px] hover:bg-[#6B62C5]">
+                    <picture>
+                        <img class="m-auto" src="images/content-writing.png" alt="content-writing.png">
+                    </picture>
+                    <h3
+                        class="group-hover:text-white mt-[30px] mb-[15px] font-openSans text-3xl font-bold text-[#141135] capitalize">
+                        Content Writing
+                    </h3>
+                    <p
+                        class="group-hover:text-white mb-[5px] pl-[35px] pr-[35px] font-paprika text-[18px] font-normal text-[#726E9E] leading-[30px]">
+                        Social Media has changed the way we interact & do business while creating a new avenue.
+                    </p>
+                    <div class="m-auto w-[184px] h-[40px] relative">
+                        <a
+                            class="group-hover:text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg font-bold">
+                            Read more</a>
+                        <div
+                            class="group-hover:bg-circleHoverColor w-[27px] h-[40px] bg-circleColor rounded-tl-[0] rounded-tr-[90px] rounded-br-[90px] rounded-bl-[0] absolute top-1/2 left-3/4 -translate-x-1/2 -translate-y-1/2">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="group w-[32%] py-[50px] text-center bg-white drop-shadow-md rounded-[20px] hover:bg-[#6B62C5]">
+                    <picture>
+                        <img class="m-auto" src="images/digital-marketing.png" alt="digital-marketing.png">
+                    </picture>
+                    <h3
+                        class="group-hover:text-white mt-[30px] mb-[15px] font-openSans text-3xl font-bold text-[#141135] capitalize">
+                        Digital Marketing
+                    </h3>
+                    <p
+                        class="group-hover:text-white mb-[5px] pl-[35px] pr-[35px] font-paprika text-[18px] font-normal text-[#726E9E] leading-[30px]">
+                        Social Media has changed the way we interact & do business while creating a new avenue.
+                    </p>
+                    <div class="m-auto w-[184px] h-[40px] relative">
+                        <a
+                            class="group-hover:text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg font-bold">
+                            Read more</a>
+                        <div
+                            class="group-hover:bg-circleHoverColor w-[27px] h-[40px] bg-circleColor rounded-tl-[0] rounded-tr-[90px] rounded-br-[90px] rounded-bl-[0] absolute top-1/2 left-3/4 -translate-x-1/2 -translate-y-1/2">
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="group w-[32%] py-[50px] text-center bg-white drop-shadow-md rounded-[20px] hover:bg-[#6B62C5]">
+                    <picture>
+                        <img class="m-auto" src="images/support-training.png" alt="support-training.png">
+                    </picture>
+                    <h3
+                        class="group-hover:text-white mt-[30px] mb-[15px] font-openSans text-3xl font-bold text-[#141135] capitalize">
+                        Support & Training
+                    </h3>
+                    <p
+                        class="group-hover:text-white mb-[5px] pl-[35px] pr-[52px] font-paprika text-[18px] font-normal text-[#726E9E] leading-[30px]">
+                        Content Marketing is the other fold of online advertisement. If you are looking to build
+                    </p>
+                    <div class="m-auto w-[184px] h-[40px] relative">
+                        <a
+                            class="group-hover:text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-lg font-bold">
+                            Read more</a>
+                        <div
+                            class="group-hover:bg-circleHoverColor w-[27px] h-[40px] bg-circleColor rounded-tl-[0] rounded-tr-[90px] rounded-br-[90px] rounded-bl-[0] absolute top-1/2 left-3/4 -translate-x-1/2 -translate-y-1/2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- What We Do Part End  -->
+
+    <!-- We create real impact Part Start -->
+    <div class="bg-realImpactBg pt-[115px] pb-[100px]">
+        <div class="max-w-myContainer m-auto">
+            <div class="text-center">
+                <h3 class="mb-[20px] font-openSans text-5xl font-bold text-[#141135]">We create real impact</h3>
+                <p
+                    class="w-[558px] m-auto pb-[70px] font-paprika text-[18px] font-normal text-[#726E9E] leading-[30px]">
+                    We design, build and support websites and apps for clients worldwide. Create beautiful, eye-catching
+                    on-page messages without the need for a developer.
+                </p>
+            </div>
+            <div class="flex">
+                <div class="w-[40%]">
+                    <div class="flex mb-[40px]">
+                        <div class="">
+                            <picture>
+                                <img src="images/competitive-analysis-img.png" alt="competitive-analysis-img.png">
+                            </picture>
+                        </div>
+                        <div class="ml-[35px]">
+                            <h3 class="mb-[20px] font-openSans text-3xl font-bold text-[#141135] capitalize">Competitive
+                                analysis</h3>
+                            <p class="w-[343px] font-paprika font-normal text-[18px] leading-[30px] text-[#726E9E] ">
+                                With an all-new look and powerful features, Ekko is the best way to ensure success for
+                                your business.</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-[40px]">
+                        <div class="">
+                            <picture>
+                                <img src="images/strategy-and-research-img.png" alt="strategy-and-research-img.png">
+                            </picture>
+                        </div>
+                        <div class="ml-[35px]">
+                            <h3 class="mb-[20px] font-openSans text-3xl font-bold text-[#141135] capitalize">Strategy
+                                And research</h3>
+                            <p class="w-[309px] font-paprika font-normal text-[18px] leading-[30px] text-[#726E9E] ">
+                                Save money and start building your website using the best tools available on the market
+                                today.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative w-[60%]">
+                    <div
+                        class="absolute left-[17%] bottom-[25%] drop-shadow-xl hover:border-8 hover:rounded-[30px] hover:border-white">
+                        <picture>
+                            <img class="w-[227.09px] h-[273.09px]" src="images/real-impact-img-1.png"
+                                alt="real-impact-img-1.png">
+                        </picture>
+                    </div>
+                    <div
+                        class="absolute right-[15%] top-[45%] drop-shadow-xl hover:border-8 hover:rounded-[30px] hover:border-white">
+                        <picture>
+                            <img class="w-[310px] h-[264px]" src="images/real-impact-img-2.png"
+                                alt="real-impact-img-2.png">
+                        </picture>
+                    </div>
+                    <div
+                        class="absolute right-[25%] top-[0%] drop-shadow-xl hover:border-8 hover:rounded-[30px] hover:border-white">
+                        <picture>
+                            <img class="w-[161.51px] h-[140.95px]" src="images/real-impact-img-3.png"
+                                alt="real-impact-img-3.png">
+                        </picture>
+                    </div>
+                    <div class="absolute right-[11%] top-[20%]">
+                        <picture>
+                            <img class="w-[130px] h-[105.84px]" src="images/real-impact-dots-img.png"
+                                alt="real-impact-dots-img.png">
+                        </picture>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- We create real impact Part End  -->
+
+    <!-- Choose The Right Plan Part Start -->
+    <div class="bg-[#F9F9FB] pt-[115px] pb-[100px]">
+        <div class="max-w-myContainer m-auto">
+            <div class="text-center">
+                <h3 class="mb-[65px] font-openSans font-bold text-5xl text-[#141135] capitalize"> Choose The Right Plan
+                </h3>
+            </div>
+            <div class="flex justify-between">
+                <div class="w-[30%] bg-white rounded-[20px] text-center group hover:bg-[#6B62C5]">
+                    <h3
+                        class="mt-[60px] mb-[30px] font-openSans font-bold text-3xl text-[#141135] group-hover:text-white">
+                        Basic</h3>
+                    <div class="mb-[20px] h-[170px] bg-[#ECEDF0] group-hover:bg-[#6B62C5]">
+                        <picture>
+                            <img class="m-auto" src="images/right-plan-img-1.png" alt="right-plan-img-1.png">
+                        </picture>
+                    </div>
+                    <picture>
+                        <img class="m-auto w-[104px] h-[50px]" src="images/dollar-img-1.png" alt="dollar-img-1.png">
+                    </picture>
+                    <p
+                        class="mt-[20px] mb-[60px] font-paprika font-normal text-[17px] leading-[31px] text-[#726E9E] group-hover:text-[#E6E5F3]">
+                        Responsive Design <br> Dynamic Elements <br> Service Pages <br> Custom Design & Features
+                    </p>
+                </div>
+                <div class="w-[30%] bg-white rounded-[20px] text-center group hover:bg-[#6B62C5]">
+                    <h3
+                        class="mt-[60px] mb-[30px] font-openSans font-bold text-3xl text-[#141135] group-hover:text-white">
+                        Professional</h3>
+                    <div class="mb-[20px] h-[170px] bg-[#ECEDF0] group-hover:bg-[#6B62C5]">
+                        <picture>
+                            <img class="m-auto" src="images/right-plan-img-2.png" alt="right-plan-img-2.png">
+                        </picture>
+                    </div>
+                    <picture>
+                        <img class="m-auto w-[104px] h-[60px]" src="images/dollar-img-2.png" alt="dollar-img-2.png">
+                    </picture>
+                    <p
+                        class="mt-[20px] mb-[60px] font-paprika font-normal text-[17px] leading-[31px] text-[#726E9E] group-hover:text-[#E6E5F3]">
+                        Responsive Design <br> Dynamic Elements <br> Service Pages <br> Custom Design & Features
+                    </p>
+                </div>
+                <div class="w-[30%] bg-white rounded-[20px] text-center group hover:bg-[#6B62C5]">
+                    <h3
+                        class="mt-[60px] mb-[30px] font-openSans font-bold text-3xl text-[#141135] group-hover:text-white">
+                        Exclusive</h3>
+                    <div class="mb-[20px] py-[34px] bg-[#ECEDF0] group-hover:bg-[#6B62C5]">
+                        <picture>
+                            <img class="m-auto" src="images/right-plan-img-3.png" alt="right-plan-img-3.png">
+                        </picture>
+                    </div>
+                    <picture>
+                        <img class="m-auto w-[104px] h-[50px]" src="images/dollar-img-3.png" alt="dollar-img-3.png">
+                    </picture>
+                    <p
+                        class="mt-[20px] mb-[60px] font-paprika font-normal text-[17px] leading-[31px] text-[#726E9E] group-hover:text-[#E6E5F3]">
+                        Responsive Design <br> Dynamic Elements <br> Service Pages <br> Custom Design & Features
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Choose The Right Plan Part End  -->
+
+    <!-- About Us Part Start -->
+    <div class="bg-[#F8F8FF] pt-[110px] pb-[100px]">
+        <div class="max-w-myContainer m-auto">
+            <div class="mb-[150px] text-center">
+                <h3 class="font-openSans text-5xl font-bold text-[#141135] capitalize">
+                    What The People Thinks About Us
+                </h3>
+            </div>
+
+            <div class="relative text-center w-[1080px] pt-[110px] pb-[60px] bg-white rounded-[12px] drop-shadow-2xl">
+                <div class="absolute bottom-[70%] left-[37%]">
+                    <picture>
+                        <img src="images/reviwer-1.png" alt="reviwer-1.png">
+                    </picture>
+                </div>
+                <div class="text-center">
+                    <i class="fa-solid fa-star text-[#FF7628]"></i>
+                    <i class="fa-solid fa-star text-[#FF7628]"></i>
+                    <i class="fa-solid fa-star text-[#FF7628]"></i>
+                    <i class="fa-solid fa-star text-[#FF7628]"></i>
+                    <i class="fa-solid fa-star text-[#FF7628]"></i>
+                </div>
+                <p
+                    class="mt-[30px] mb-[65px] px-[106px] font-paprika text-[24px] font-normal text-[#726E9E] leading-10">
+                    Lesser Replenish bearing they’re him cattle kind dominion. You
+                    which fill place. Land she’d subdue divided gathering blessed
+                    seasons it. Without, wherein days.
+                </p>
+                <h3 class=" mb-[5px] font-openSans font-bold text-[25px] leading-10 text-[#221A2C] capitalize"> Lukan
+                    Depina </h3>
+                <p class="font-paprika font-normal text-[15px] leading-[25px] text-[#726E9E] capitalize"> Ceo And Head
+                    Of Idea </p>
+            </div>
+        </div>
+    </div>
+    <!-- About Us Part End  -->
+
+    <!-- Blog Part Start -->
+    <div class="bg-blogBg py-[105px]">
+        <div class="max-w-myContainer m-auto">
+            <div class="mb-[65px]">
+                <h3 class="font-openSans font-bold text-[44px] leading-[65px] text-[#030314]">You May Also Like </h3>
+            </div>
+            <div class="mb-[55px] flex justify-between">
+                <div class="w-[30%]">
+                    <picture>
+                        <img src="images/blog-img-1.png" alt="blog-img-1.png">
+                    </picture>
+                </div>
+                <div class="w-[65%]">
+                    <p class="text-[#726E9E] font-quickSand font-medium text-base leading-[25px]">
+                        <span class="pr-[30px] text-hoverColor font-bold"> News </span>
+                        <span class="pr-[5px]"> By </span>
+                        <span class="pr-[30px]">Tomas Nikelson </span>
+                        <span class="pr-[5px]"> Posted </span>
+                        5 Hours Ago
+                    </p>
+                    <p
+                        class="font-openSans font-bold text-[30px] leading-[55px] tracking-[-1.5px] text-[#141135] capitalize">
+                        Punto Pago Allows Quick And Secure </p>
+                    <p
+                        class="mb-[25px] font-openSans font-bold text-[30px] leading-[55px] tracking-[-1.5px] text-[#141135] capitalize">
+                        Payments For Services In Panama </p>
+                    <a href="#"
+                        class="font-openSans font-bold text-[17px] leading-[24px] text-[#141135] relative before:absolute before:w-[27px] before:h-[40px] before:content[''] before:bg-circleColor before:rounded-r-full before:top-[-5px] before:left-[80px]">
+                        Read more </a>
+                </div>
+            </div>
+            <div class="mb-[55px] flex justify-between">
+                <div class="w-[30%]">
+                    <picture>
+                        <img src="images/blog-img-1.png" alt="blog-img-1.png">
+                    </picture>
+                </div>
+                <div class="w-[65%]">
+                    <p class="text-[#726E9E] font-quickSand font-medium text-base leading-[25px]">
+                        <span class="pr-[30px] text-hoverColor font-bold"> News </span>
+                        <span class="pr-[5px]"> By </span>
+                        <span class="pr-[30px]">Tomas Nikelson </span>
+                        <span class="pr-[5px]"> Posted </span>
+                        5 Hours Ago
+                    </p>
+                    <p
+                        class="font-openSans font-bold text-[30px] leading-[55px] tracking-[-1.5px] text-[#141135] capitalize">
+                        The User Can Also Replenish A Balance
+                    </p>
+                    <p
+                        class="mb-[25px] font-openSans font-bold text-[30px] leading-[55px] tracking-[-1.5px] text-[#141135] capitalize">
+                        Make Remittances </p>
+                    <a href="#"
+                        class="font-openSans font-bold text-[17px] leading-[24px] text-[#141135] relative before:absolute before:w-[27px] before:h-[40px] before:content[''] before:bg-circleColor before:rounded-r-full before:top-[-5px] before:left-[80px]">
+                        Read more </a>
+                </div>
+            </div>
+            <div class="mb-[55px] flex justify-between">
+                <div class="w-[30%]">
+                    <picture>
+                        <img src="images/blog-img-1.png" alt="blog-img-1.png">
+                    </picture>
+                </div>
+                <div class="w-[65%]">
+                    <p class="text-[#726E9E] font-quickSand font-medium text-base leading-[25px]">
+                        <span class="pr-[30px] text-hoverColor font-bold"> News </span>
+                        <span class="pr-[5px]"> By </span>
+                        <span class="pr-[30px]">Tomas Nikelson </span>
+                        <span class="pr-[5px]"> Posted </span>
+                        5 Hours Ago
+                    </p>
+                    <p
+                        class="font-openSans font-bold text-[30px] leading-[55px] tracking-[-1.5px] text-[#141135] capitalize">
+                        The User Can Also Replenish A Balance
+                    </p>
+                    <p
+                        class="mb-[25px] font-openSans font-bold text-[30px] leading-[55px] tracking-[-1.5px] text-[#141135] capitalize">
+                        Make Remittances </p>
+                    <a href="#"
+                        class="font-openSans font-bold text-[17px] leading-[24px] text-[#141135] relative before:absolute before:w-[27px] before:h-[40px] before:content[''] before:bg-circleColor before:rounded-r-full before:top-[-5px] before:left-[80px]">
+                        Read more </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog Part End  -->
+
+    <!-- Footer Part Start -->
+    <div class="bg-[#48409C] pt-[130px] pb-[60px]">
+        <div class="max-w-myContainer m-auto">
+            <div class="flex gap-x-[20px]">
+                <div class="w-[40%]">
+                    <picture><img src="images/Logo.png" alt=""></picture>
+                    <p
+                        class="pt-[45px] pr-[30px] font-nunito text-[17px] font-extralight text-white leading-[180%] capitalize">
+                        Install any demo or template with a single click. You can mix and match all the demos &
+                        templates.
+                        Every demo can be turned into one or multi-page.
+                    </p>
+                </div>
+                <div class="w-[15%]">
+                    <h3 class="pb-[35px] font-openSans text-[20px] font-semibold text-white leading-[140%] capitalize">
+                        Features</h3>
+                    <ul>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Home </a></li>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                About </a></li>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Benefit </a></li>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Pricing </a></li>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Blog </a></li>
+                    </ul>
+                </div>
+                <div class="w-[15%]">
+                    <h3 class="pb-[35px] font-openSans text-[20px] font-semibold text-white leading-[140%] capitalize">
+                        Products</h3>
+                    <ul>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Task Management </a></li>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Company growth </a></li>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Time tracking </a></li>
+                    </ul>
+                </div>
+                <div class="w-[15%]">
+                    <h3 class="pb-[35px] font-openSans text-[20px] font-semibold text-white leading-[140%] capitalize">
+                        Support</h3>
+                    <ul>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Customer service </a></li>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Accessibility </a></li>
+                        <li><a href="#"
+                                class="inline-block pb-[25px] font-nunito text-[18px] font-light text-white leading-[120%] capitalize">
+                                Contact us </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-[80px] flex">
+                <div class="w-[65%]">
+                    <p class="font-nunito text-[15px] font-extralight text-white leading-[180%] capitalize">@20201
+                        Innovate.All rights reserved.</p>
+                </div>
+                <div class="w-[30%]">
+                    <a href="#"
+                        class="pr-[60px] font-nunito text-[15px] font-extralight text-white leading-[180%] capitalize">Privacy
+                        policy</a>
+                    <a href="#"
+                        class="font-nunito text-[15px] font-extralight text-white leading-[180%] capitalize">Terms &
+                        condition</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer Part End  -->
+
+    <script src="tailwind.config.js"></script>
+</body>
+
+</html>
